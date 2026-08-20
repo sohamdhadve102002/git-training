@@ -1,0 +1,81 @@
+===== MySQL database =====
+1) CREATE DATABASE arbor_lms;
+2) Create the admins table: SQL Query is
+CREATE TABLE admins (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+
+    profile_image VARCHAR(255),
+
+    email VARCHAR(150) NOT NULL UNIQUE,
+
+    mobile VARCHAR(15) NOT NULL UNIQUE,
+
+    first_name VARCHAR(100) NOT NULL,
+
+    last_name VARCHAR(100) NOT NULL,
+
+    username VARCHAR(100) NOT NULL UNIQUE,
+
+    admin_id VARCHAR(10) NOT NULL UNIQUE,
+
+    password_hash VARCHAR(255) NOT NULL,
+
+    role ENUM('admin', 'super_admin') DEFAULT 'admin',
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        ON UPDATE CURRENT_TIMESTAMP
+);
+
+
+
+
+
+=================================
+      ARBOR LMS USERS
+=================================
+
+USERS CREATED SUCCESSFULLY
+
+ADMIN
+ID       : 9867111359
+Password : Admin@123
+
+HR
+ID       : 1000000001
+Password : HR@12345
+
+SALES
+ID       : 1000000002
+Password : Sales@123
+
+STUDENT
+ID       : 1000000003
+Password : Student@123
+
+TEACHER
+ID       : 1000000004
+Password : Teacher@123
+
+
+
+
+
+
+
+
+
+
+
+
+
+perfect.... now I am stuck on this page 
+
+ARBOR ACADEMY
+
+Hey 👋
+
+Welcome to Arbor Academy Admin Portal
+
+This page not redirect to admindashboard and i dont like this UI i want loginperson name also and give me the my dark UI with text animation and also change the content like ARBOR ACADEMY ADMIN Panel or section Hello soham Welcome to Arbor Academy this ADMIN  only for the admin login Person and like this HR or Sales or Student according to there ID i want admin dashboard page like this leftside all menu list and top navbar profile image name and logout btn and if you add enything which is important for the LMS add this and this navbar same for all user like hr or sales ect.  also left side menu list will be collaps and open functionality with icons if i click add Hr menu list right side will open smothly with animation and also add my dark and light option in the navbar section.   

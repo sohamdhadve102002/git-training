@@ -1,0 +1,188 @@
+ARBOR-LMS-PORTAL/
+│
+├── Backend/
+│   ├── admin/
+│   │   ├── controllers/
+│   │   │   └── authController.js
+│   │   │
+│   │   ├── middleware/
+│   │   │   └── authMiddleware.js
+│   │   │
+│   │   └── routes/
+│   │       └── authRoutes.js
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+|   |___ node_modules
+|   |     |___ All Files.....
+|   |
+|   |
+│   ├── .env
+|   |── .gitignore
+|   |── createAdmin.js (Remove This )
+|   |── package-lock.json
+|   |── package.json
+│   └── server.js
+│
+|── frontend/
+|   |
+|   |── node modules
+|   |    |── All files 
+|   |
+|   |
+|   |── public
+|   |    |── favicon.svg
+|   |    |── icons.svg
+|   |    |── Welcome.jsx
+|   |
+|   |
+|   |── src/
+|   |   ├── admin/
+|   |   │   ├── components/
+|   |   |   |   ├── ProtectedAdminRoute.jsx
+|   |   |   |   
+|   |   │   ├── pages/
+|   |   │   │   ├── AdminAccessDenied.jsx
+|   |   │   │   ├── AdminHome.jsx
+|   |   |   |   ├── AdminWelcome.jsx
+|   |   │   │
+|   |   │   └── AdminApp.jsx
+|   |   │
+|   |   |
+|   |   |── assets/
+|   |   |   |── company-logos
+|   |   |   |     |── Logo-1.png
+|   |   |   |     |── Logo-2.png 
+|   |   |   |     |── and So On......                  
+|   |   |   |
+|   |   |   |── Slider-Background
+|   |   |         |── Background-1.png
+|   |   |         |── Background-2.png
+|   |   |         |── Background-3.png
+|   |   |   
+|   |   |     
+|   |   ├── components/
+|   |   |   |── Footer.jsx
+|   |   |   |── HeroSlider.jsx
+|   |   |   |── HiringCompanies.jsx
+|   |   |   |── Navbar.jsx
+|   |   |   |── Popularcourses.Jsx
+|   |   |   |── WhyChooseUs.jsx
+|   |   |
+|   |   |
+|   |   ├── pages/
+|   |   │   ├── ContactUs.jsx
+|   |   │   ├── Home.jsx
+|   |   │   ├── Login.jsx
+|   |   │   └── Welcome.jsx
+|   |   │
+|   |   ├── App.jsx
+|   |   ├── index.css
+|   |   └── main.jsx
+|   |
+|   |
+|   ├── .gitignore
+|   ├── eslint.config.js
+|   ├── index.html
+|   ├── package-lock.json
+|   ├── package.json
+|   ├── README.md
+|   ├── vite.config.js
+|   |
+|   |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is My Final Digram - 10/08/2026
+
+ARBOR-LMS-PORTAL/
+│
+├── Backend/
+│   │
+│   ├── admin/
+│   │   ├── controllers/
+│   │   │   └── authController.js
+│   │   │
+│   │   ├── middleware/
+│   │   │   └── authMiddleware.js
+│   │   │
+│   │   └── routes/
+│   │       └── authRoutes.js
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── .env
+│   ├── .gitignore
+│   ├── createUsers.js
+│   ├── package.json
+│   └── server.js
+│
+└── Frontend/
+    │
+    ├── public/
+    │
+    ├── src/
+    │   │
+    │   ├── admin/
+    │   │   ├── components/
+    │   │   │   └── ProtectedAdminRoute.jsx
+    │   │   │
+    │   │   ├── pages/
+    │   │   │   ├── AdminAccessDenied.jsx
+    │   │   │   ├── AdminHome.jsx
+    │   │   │   └── AdminWelcome.jsx
+    │   │   │
+    │   │   └── AdminApp.jsx
+    │   │
+    │   ├── hr/
+    │   │   └── pages/
+    │   │       └── HRHome.jsx
+    │   │
+    │   ├── sales/
+    │   │   └── pages/
+    │   │       └── SalesHome.jsx
+    │   │
+    │   ├── student/
+    │   │   └── pages/
+    │   │       └── StudentHome.jsx
+    │   │
+    │   ├── teacher/
+    │   │   └── pages/
+    │   │       └── TeacherHome.jsx
+    │   │
+    │   ├── components/
+    │   │   ├── Footer.jsx
+    │   │   ├── HeroSlider.jsx
+    │   │   ├── HiringCompanies.jsx
+    │   │   ├── Navbar.jsx
+    │   │   ├── Popularcourses.jsx
+    │   │   └── WhyChooseUs.jsx
+    │   │
+    │   ├── pages/
+    │   │   ├── ContactUs.jsx
+    │   │   ├── Home.jsx
+    │   │   ├── Login.jsx          ← ONE LOGIN
+    │   │   └── Welcome.jsx
+    │   │
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    │
+    ├── package.json
+    └── vite.config.js
